@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scratch-AC2</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <img src="./logo/Logo.png" width="5%" class="img-responsive logo1" />
+
+      <img src="./logo/header.png" class="img-responsive logo2" />
+      <button class="toggle-sidenav" onclick="toggleSidenav()">☰</button>
+      <!-- Toggle Button -->
+    </div>
+
+    <div class="container">
+      <!-- Left Side Navigation -->
+      <div class="sidenav">
+        <button onclick="showContent('activity1')">Task 1</button>
+        <button onclick="showContent('activity2')">Task 2</button>
+
+        
+      </div>
+
+      <!-- Right Side Content -->
+      <div class="content">
+        <div id="activity1" class="content-section">
+          <h2>1) Fact Buddy</h2>
+          Write a program to keep moving a sprite at random positions and display 5 fun facts about trees. <br />
+          👉
+          <button
+            class="project-btn"
+            onclick="window.open('https://scratch.mit.edu/projects/1104819291/')"
+          >
+            Open Template
+          </button>
+          <br /><br />
+          <b>Steps:</b>
+          <p></p>
+          <br />1. Click on See Inside.
+          <br />
+          <a class="solution" onclick="toggleSolution1_1()">View</a>
+          <br />
+          <img
+            id="solution-img1-1"
+            src="./assets/ac1-sol/1.png"
+            alt=""
+            width="70%"
+            style="display: none"
+          />
+          <br />
+
+          2. 
+          You can adjust the size of the sprite.
+
+          <br />
+
+          <a class="solution" onclick="toggleSolution1_2()">View</a>
+          <br />
+          <img
+            id="solution-img1-2"
+            src="./assets/ac1-sol/2.png"
+            alt=""
+            width="30%"
+            style="display: none"
+          />
+          <br />
+
+          3. Select 
+          <img src="./assets/ac1-sol/when-clicked.png" alt="" width="11%" />
+          from <img src="./assets/ac1-sol/events.png" alt="" width="5%" />
+          <br />
+
+          <br />
+
+          <a class="solution" onclick="toggleSolution1_3()">View</a>
+          <br />
+          <img
+            id="solution-img1-3"
+            src="./assets/ac1-sol/3.png"
+            alt=""
+            width="30%"
+            style="display: none"
+          />
+          <br />
+          <img
+            id="solution-img1-3-1"
+            src="./assets/ac1-sol/3-1.png"
+            alt=""
+            width="80%"
+            style="display: none"
+          />
+          <br />
+
+          4. Select 
+          <img src="./assets/ac1-sol/s4-1.png" alt="" width="15%" />
+          from <img src="./assets/ac1-sol/s4-2.png" alt="" width="5%" />  
+          and attach it 
+
+          to <img src="./assets/ac1-sol/when-clicked.png" alt="" width="11%" />
+          
+
+          <br />
+
+          <a class="solution" onclick="toggleSolution1_4()">View</a>
+          <br />
+          <img
+            id="solution-img1-4"
+            src="./assets/ac1-sol/4.png"
+            alt=""
+            width="30%"
+            style="display: none"
+          />
+          <br />
+          <img
+            id="solution-img1-4-1"
+            src="./assets/ac1-sol/4-1.png"
+            alt=""
+            width="30%"
+            style="display: none"
+          />
+          <br />
+
+          5. Select 
+          <img src="./assets/ac1-sol/s5-1.png" alt="" width="15%" />
+          from <img src="./assets/ac1-sol/s5-2.png" alt="" width="5%" />  
+          and attach it 
+
+          to <img src="./assets/ac1-sol/s4-1.png" alt="" width="15%" />
+
+
+          <br />
+
+          <a class="solution" onclick="toggleSolution1_5()">View</a>
+          <br />
+          <img
+            id="solution-img1-5"
+            src="./assets/ac1-sol/5.png"
+            alt=""
+            width="30%"
+            style="display: none"
+          />
+          <br />
+          <img
+            id="solution-img1-5-1"
+            src="./assets/ac1-sol/5-1.png"
+            alt=""
+            width="30%"
+            style="display: none"
+          />
+          <br />
+
+          6. Keep repeating steps 7 and 8 four times.
+
+          <br />
+
+          <a class="solution" onclick="toggleSolution1_6()">View</a>
+          <br />
+          <img
+            id="solution-img1-6"
+            src="./assets/ac1-sol/6.png"
+            alt=""
+            width="30%"
+            style="display: none"
+          />
+          
+          <br />
+
+
+          <button
+            class="project-btn"
+            style="background-color: #a564b4; font-size: 1.2rem"
+            onclick="showContent('activity2')"
+          >
+            Activity 2
+          </button>
+          <br />
+        </div>
+
+   
+        <div id="activity2" class="content-section">
+          <h2>2) MOVING CAR</h2>
+          Imagine you are creating a car racing game. When you press the green flag the car comes to the starting line, when you press the right arrow key the car moves forward.
+
+          <br />
+          👉
+          <button
+            class="project-btn"
+            onclick="window.open('https://scratch.mit.edu/projects/1106893129')"
+          >
+            Open Template
+          </button>
+          <br /><br />
+          <b>Steps:</b>
+          <p></p>
+          <br />1. The student opens the link and clicks on See Inside.
+          <br />
+          <a class="solution" onclick="toggleSolution2_1()">View</a>
+          <br />
+          <img
+            id="solution-img2-1"
+            src="./assets/ac2-sol/1.png"
+            alt=""
+            width="90%"
+            style="display: none"
+          />
+          <br />
+
+          2. Select 
+          <img src="./assets/ac1-sol/when-clicked.png" alt="" width="11%" />
+          from
+          <img src="./assets/ac1-sol/events.png" alt="" width="5%" />.
+          <br />
+          <a class="solution" onclick="toggleSolution2_2()">View</a>
+          <br />
+          <img
+            id="solution-img2-2"
+            src="./assets/ac2-sol/2.png"
+            alt=""
+            width="30%"
+            style="display: none"
+          />
+          <br />
+          <img
+            id="solution-img2-2-1"
+            src="./assets/ac2-sol/2-1.png"
+            alt=""
+            width="90%"
+            style="display: none"
+          />
+          <br />
+
+          3. Select
+          <img src="./assets/ac2-sol/s3-1.png" alt="" width="15%"/>
+          from 
+          <img src="./assets/ac2-sol/s3-2.png" alt="" width="8%"/>
+          and attach it to <img src="./assets/ac1-sol/when-clicked.png" alt="" width="11%"/>
+         
+          <br /><br>
+          Give x and y in such a way that the car comes at the starting line.
+          <br />
+          <a class="solution" onclick="toggleSolution2_3()">View</a>
+          <br />
+          <img
+            id="solution-img2-3"
+            src="./assets/ac2-sol/3.png"
+            alt=""
+            width="30%"
+            style="display: none"
+          />
+          <br />
+          <img
+            id="solution-img2-3-1"
+            src="./assets/ac2-sol/3-1.png"
+            alt=""
+            width="90%"
+            style="display: none"
+          />
+          
+    
+          <br />
+
+          4. Select
+          <img src="./assets/ac2-sol/s4-1.png" alt="" width="18%"/>
+          from 
+          <img src="./assets/ac1-sol/events.png" alt="" width="5%"/>
+          <br><br>Select right arrow by clicking on the drop-down menu.
+          <br />
+          <a class="solution" onclick="toggleSolution2_4()">View</a>
+          <br />
+          <img
+            id="solution-img2-4"
+            src="./assets/ac2-sol/4.png"
+            alt=""
+            width="30%"
+            style="display: none"
+          />
+          <br /><img
+            id="solution-img2-4-1"
+            src="./assets/ac2-sol/4-1.png"
+            alt=""
+            width="30%"
+            style="display: none"
+          />
+          <br /><img
+            id="solution-img2-4-2"
+            src="./assets/ac2-sol/4-2.png"
+            alt=""
+            width="90%"
+            style="display: none"
+          />
+          <br />
+
+          5. Select 
+          <img src="./assets/ac2-sol/s5-1.png" alt="" width="15%"/>
+          from 
+          <img src="./assets/ac2-sol/s3-2.png" alt="" width="7%"/>
+          attach it to<br><br> When right arrow key pressed.
+          <br />
+          <a class="solution" onclick="toggleSolution2_5()">View</a>
+          <br />
+          <img
+            id="solution-img2-5"
+            src="./assets/ac2-sol/5.png"
+            alt=""
+            width="30%"
+            style="display: none"
+          />
+          <br />
+          <img
+            id="solution-img2-5-1"
+            src="./assets/ac2-sol/5-1.png"
+            alt=""
+            width="90%"
+            style="display: none"
+          />
+          <br />
+
+          
+
+
+          <!-- <button
+            class="project-btn"
+            style="background-color: #a564b4; font-size: 1.2rem"
+            onclick="showContent('activity3')"
+          >
+            Activity 3
+          </button> -->
+          <br />
+
+      
+
+        </div>
+
+        <!-- <div id="activity3" class="content-section">
+          <h2>3) Moving Fish (Additional Activity)</h2>
+          Let's create an exciting underwater scene where a fish moves left and
+          right!
+          <br />👉
+          <button
+            class="project-btn"
+            onclick="window.open('https://scratch.mit.edu/')"
+          >
+            Open template
+          </button>
+          <br /><br />
+
+          In this activity, you'll move a fish sprite and make it change
+          direction!
+          <br />
+          <br />
+          <b>Steps:</b>
+          <br />1. Select an underwater backdrop.
+          <br />
+          <a class="solution" onclick="toggleSolution3_1()">View</a>
+          <br />
+          <img
+            id="solution-img3-1"
+            src="./assets/images/image20.png"
+            alt=""
+            width="50%"
+            style="display: none"
+          />
+          <br />
+
+          2. Select a fish sprite.
+          <br />
+          <a class="solution" onclick="toggleSolution3_2()">View</a>
+          <br />
+          <img
+            id="solution-img3-2"
+            src="./assets/images/image7.png"
+            alt=""
+            width="50%"
+            style="display: none"
+          />
+          <br />
+
+          3. Delete previous costumes, duplicate the fish sprite, and flip it
+          horizontally.
+          <br />
+          <a class="solution" onclick="toggleSolution3_3()">View</a>
+          <br />
+          <img
+            id="solution-img3-3"
+            src="./assets/images/image2.png"
+            alt=""
+            width="50%"
+            style="display: none"
+          />
+          <br />
+
+          4. Use the left and right arrow keys to move the fish and change its
+          costume based on the direction.
+          <br />
+          <a class="solution" onclick="toggleSolution3_4()">View</a>
+          <br />
+          <img
+            id="solution-img3-4"
+            src="./assets/images/image18.png"
+            alt=""
+            width="50%"
+            style="display: none"
+          />
+          <br /><br />
+          <br /><br />
+
+
+          <br />
+        </div> -->
+      
+        <div id="activity3" class="content-section">
+          <h2>3) Moving Fish (Additional Activity)</h2>
+          In this activity, you will create an underwater environment with a fish moving left and right using arrow keys.
+          <br />
+          👉
+          <button
+              class="project-btn"
+              onclick="window.open('https://scratch.mit.edu/')"
+          >
+              Open Template
+          </button>
+          <br /><br />
+          <b>Steps:</b>
+          <p></p>
+          <br />1. Click on choose a backdrop.
+          <br />
+          <a class="solution" onclick="toggleSolution3_1()">View</a>
+          <br />
+          <img
+              id="solution-img3-1"
+              src="./assets/ac3-sol/1.png"
+              alt=""
+              width="30%"
+              style="display: none"
+          />
+          <br />
+      
+          2. Select Underwater 1.
+          <br />
+          <a class="solution" onclick="toggleSolution3_2()">View</a>
+          <br />
+          <img
+              id="solution-img3-2"
+              src="./assets/ac3-sol/2.png"
+              alt=""
+              width="60%"
+              style="display: none"
+          />
+          <br />
+          <img
+          id="solution-img3-2-1"
+          src="./assets/ac3-sol/2-1.png"
+          alt=""
+          width="60%"
+          style="display: none"
+      />
+      <br />
+      
+          3. Click on choose a sprite.
+          <br />
+          <a class="solution" onclick="toggleSolution3_3()">View</a>
+          <br />
+          <img
+              id="solution-img3-3"
+              src="./assets/ac3-sol/3.png"
+              alt=""
+              width="40%"
+              style="display: none"
+          />
+          <br />
+      
+          4. Select Fish Sprite.
+          <br />
+          <a class="solution" onclick="toggleSolution3_4()">View</a>
+          <br />
+          <img
+              id="solution-img3-4"
+              src="./assets/ac3-sol/4.png"
+              alt=""
+              width="60%"
+              style="display: none"
+          />
+          <br />
+          <img
+          id="solution-img3-4-1"
+          src="./assets/ac3-sol/4-1.png"
+          alt=""
+          width="60%"
+          style="display: none"
+      />
+      <br />
+  
+      
+          5. Delete previous costumes, duplicate the fish sprite, and flip it horizontally.
+          <br />
+          <a class="solution" onclick="toggleSolution3_5()">View</a>
+          <br />
+          <img
+              id="solution-img3-5"
+              src="./assets/ac3-sol/5.png"
+              alt=""
+              width="30%"
+              style="display: none"
+          />
+          <br />
+          <img
+          id="solution-img3-5-1"
+          src="./assets/ac3-sol/5-1.png"
+          alt=""
+          width="50%"
+          style="display: none"
+      />
+      <br />
+      <img
+      id="solution-img3-5-2"
+      src="./assets/ac3-sol/5-2.png"
+      alt=""
+      width="50%"
+      style="display: none"
+  />
+  <br />
+
+      
+          6. Select <img src="./assets/ac1-sol/when-space-key-pressed.png" alt="" style="width: 19%;"> from <img src="./assets/ac1-sol/events.png" alt="" style="width: 6%;"> to detect left and right arrow key press. And then From the dropdown, change it left arrow and right arrow.
+          <br />
+          <a class="solution" onclick="toggleSolution3_6()">View</a>
+          <br />
+          <img
+              id="solution-img3-6"
+              src="./assets/ac3-sol/6.png"
+              alt=""
+              width="30%"
+              style="display: none"
+          />
+          <br />
+          <img
+          id="solution-img3-6-1"
+          src="./assets/ac3-sol/6-1.png"
+          alt=""
+          width="50%"
+          style="display: none"
+      />
+      <br />
+      
+          7. Switch costumes based on the key press.
+          <br />
+          <a class="solution" onclick="toggleSolution3_7()">View</a>
+          <br />
+          <img
+              id="solution-img3-7"
+              src="./assets/ac3-sol/7.png"
+              alt=""
+              width="50%"
+              style="display: none"
+          />
+          <br />
+      
+          8. Select <img src="./assets/ac1-sol/change-x-by-10.png" alt="" style="width: 12%;"> block from <img src="./assets/ac1-sol/motion.png" alt="" style="width: 6%;"> section.
+          <br />
+          <a class="solution" onclick="toggleSolution3_8()">View</a>
+          <br />
+          <img
+              id="solution-img3-8"
+              src="./assets/ac3-sol/8.png"
+              alt=""
+              width="30%"
+              style="display: none"
+          />
+          <br />
+          <img
+          id="solution-img3-8-1"
+          src="./assets/ac3-sol/8-1.png"
+          alt=""
+          width="50%"
+          style="display: none"
+      />
+      <br />
+      <img
+      id="solution-img3-8-2"
+      src="./assets/ac3-sol/8-2.png"
+      alt=""
+      width="90%"
+      style="display: none"
+  />
+  <br />
+      
+          Right now it is moving beyond edges. In the coming classes, we will see how we can stop it from going beyond the edges.
+          <br />
+      
+     
+      </div>
+      
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
